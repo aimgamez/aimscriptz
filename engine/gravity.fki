@@ -1,5 +1,5 @@
-function gravity{{
-  if not TOUCHING gravity then [
+function gravity{(
+  if not TOUCHING gravity then (
     change yv -5 per second
-  ]
+  )
 )}
