@@ -1,1 +1,1 @@
-require('./module/renderer.js');
+var renderer = require('./module/renderer.js');
