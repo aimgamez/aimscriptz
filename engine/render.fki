@@ -9,6 +9,10 @@ function scene{bgc, s#(
   global s# = [number]
 )};
 
+function setScene{num(
+  global s# = setScene.number
+)}
+
 function 3D{(
   print.("Bruh")
 )}
