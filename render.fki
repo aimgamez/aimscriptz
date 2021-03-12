@@ -1,0 +1,5 @@
+function draw{color, shape(
+  local color = [color]
+  local shape = [shape]
+  local scene = [scene]
+)};
