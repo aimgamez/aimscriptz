@@ -20,3 +20,12 @@ function bloom{scatter, intensity(
   purple:intensity(.2)
   yellow:intensity(.8)
 )}
+
+
+
+
+
+
+function nova{(
+  fillText:'you found this secret lol'
+)}
