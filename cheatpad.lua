@@ -1,1 +1,2 @@
 -- Using the CHEATPAD ANTICHEAT
+-- Copyright PadSafe 2021, Aim Entertainment 2021.
