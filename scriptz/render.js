@@ -1,1 +1,1 @@
-
+var canvas = getElementById('game')
