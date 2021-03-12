@@ -9,4 +9,5 @@ function cheatpad ()
   else
     print("3D ANTISPEED enabled")
     print("3D ANTIFLY enabled")
+  end
 end
