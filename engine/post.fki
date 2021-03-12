@@ -1,0 +1,22 @@
+#/ This function makes a circle and makes it transparent, glow and transparency are built into FKI!
+
+function lights{color, radius(
+  draw[[circle], color, radius]
+  local radius:radius * 2[]
+  transparency:.05
+  glow:5
+)}
+
+#/ This function makes a glow around lights
+
+function bloom{scatter, intensity(
+  scatter:scatterSize
+  scatter = scatterSize / glow
+  intensity:color
+  white:intensity(1)
+  black:intensity(.1)
+  green:intensity(.5)
+  blue:intensity(.3)
+  purple:intensity(.2)
+  yellow:intensity(.8)
+)}
