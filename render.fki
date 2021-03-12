@@ -4,7 +4,7 @@ function draw{color, shape(
   local scene = [scene]
 )};
 
-function scene{(
+function scene{bgc, s#(
   local bgc = [color]
   global s# = [number]
 )};
