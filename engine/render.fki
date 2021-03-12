@@ -10,7 +10,7 @@ function scene{bgc, s#(
 )};
 
 function 3D{(
-  fillTextArea.("Bruh")
+  print.("Bruh")
 )}
 
 local rend = draw.color.shape
