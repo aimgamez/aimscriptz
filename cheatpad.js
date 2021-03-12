@@ -1,13 +1,14 @@
 // Cheatpad, from PadSafe and Aim Entertainment
 
 var special = true
+var enabled = false
 
-function cheatPad() {
-  if (special = true) {
-    
-    // This will make special commands for the 2D anticheat!
-  } else {
-    
-    // This means the game is 3D and has special elements!
-  }
+function enabled() {
+  var enabled = true
 }
+
+function speed2() {
+  if (xv > 400 && special = true) {
+    console.log("CheatPad Loaded.");
+  }
+};
