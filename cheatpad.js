@@ -16,7 +16,7 @@ function speed2() {
 function speed3() {
   if (xv > 400 && special = false) {
     if (zv > 400) {
-      console.log("CheatPad Loaded.
+      console.log("CheatPad Loaded.")
     }
   }
 }
