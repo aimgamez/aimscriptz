@@ -9,7 +9,9 @@ function scene{bgc, s#(
   global s# = [number]
 )};
 
-
+function 3D{(
+  fillTextArea.("Bruh")
+)}
 
 local rend = draw.color.shape
 global scene = scene.color/image.number
