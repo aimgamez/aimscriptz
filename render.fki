@@ -3,3 +3,5 @@ function draw{color, shape(
   local shape = [shape]
   local scene = [scene]
 )};
+
+local draw = renderer
