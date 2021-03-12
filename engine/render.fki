@@ -1,0 +1,15 @@
+function draw{color, shape(
+  local color = [color]
+  local shape = [shape]
+  local scene = [scene]
+)};
+
+function scene{bgc, s#(
+  local bgc = [color]
+  global s# = [number]
+)};
+
+
+
+local rend = draw.color.shape
+global scene = scene.color/image.number
