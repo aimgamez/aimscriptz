@@ -3,6 +3,24 @@ module.exports = {
     methodTwo: function () {}
 };
 
+function Game(w, h, targetFps, showFps) {
+    // Setup some constants
+    this.constants = {
+        width: w,
+        height: h,
+        targetFps: targetFps,
+        showFps: showFps
+    };
+
+    // Instantiate an empty state object
+    this.state = {};
+    . . .
+}
+
+// Instantiate a new game in the global scope at 800px by 600px
+window.game = new Game(800, 600, 60, true);
+
+
 getPixelRatio : function getPixelRatio(context) {
   console.log('Determining pixel ratio.');
 
