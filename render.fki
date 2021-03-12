@@ -12,4 +12,4 @@ function scene{bgc, s#(
 
 
 local rend = draw.color.shape
-global scene = scene.color.number
+global scene = scene.color/image.number
