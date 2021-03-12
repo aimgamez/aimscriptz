@@ -1,1 +1,1 @@
-require('./module/renderer.js')
+require('./module/renderer.js');
