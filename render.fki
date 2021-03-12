@@ -4,4 +4,12 @@ function draw{color, shape(
   local scene = [scene]
 )};
 
-local draw = renderer
+function scene{(
+  local bgc = [color]
+  global s# = [number]
+)};
+
+
+
+local rend = draw.color.shape
+global scene = scene.color.number
