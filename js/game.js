@@ -14,3 +14,9 @@ function Game() {
 
     return this;
 }
+
+// Instantiate the game in a global
+window.game = new Game();
+
+// Export the game as a module
+module.exports = game;
