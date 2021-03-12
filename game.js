@@ -1,1 +1,1 @@
-require('')
+require('renderer.js')
