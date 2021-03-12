@@ -1,5 +1,9 @@
 inc fki:render inc fki:music
 
 function{player(
-  render[green, square]
+  rend[green, square]
+)}
+
+function title{(
+  scene[black, 001]
 )}
